@@ -1,0 +1,80 @@
+.mini-task {
+	margin-top: 100px;
+	display: inline-block;
+	margin-left: 17%;
+	display: none;
+}
+
+.active {
+	display: block;
+}
+
+#left-arrow {
+	margin-top: 200px;
+	position: absolute;
+	font-size: 42px;
+	margin-left: 10%;
+}
+
+#right-arrow {
+	margin-top: 200px;
+	position: absolute;
+	font-size: 42px;
+	margin-left: 80%;
+	margin-right: 20%;
+}
+
+#submission {
+	margin-top: 1%;
+	position: absolute;
+	font-size: 24px;
+	margin-left: 80%;
+	margin-right: 20%;
+}
+
+.videoTransc {
+	width: 37%;
+	/*outline: 1px solid red;*/
+	/*height: 100px;*/
+	margin-left: 10px;
+}
+
+.highlight {
+	margin-top: 8px;
+}
+
+.textTransc {
+	width: 33%;
+	/*height: 100px;*/
+    overflow: scroll;
+    border-left: solid 1px;
+    /*outline: 1px solid orange;*/
+}
+
+.highlight:hover .text-transcript{
+    background: rgba(255, 230, 0, 0.5);
+    line-height: 1.7;
+    border-radius: 3px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display:inline-block;
+}
+
+.text-transcript {
+	margin-right: 10px;
+    padding-left: 20px;
+    min-height: 30px;
+    width: 300px;
+    line-height: 1.7;
+    border-radius: 3px;
+    padding-right: 20px;
+    display:inline-block;
+}
+
+.button-label {
+	height: 28px;
+	font-size: 12px;
+	margin-top: 10px;
+	vertical-align: center;
+	display: none;
+}
